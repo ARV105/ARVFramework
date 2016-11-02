@@ -1,0 +1,6 @@
+use_frameworks!
+target 'ARVFramework_Tests' do
+  pod 'ARVFramework', :path => '../'
+  
+  
+end
