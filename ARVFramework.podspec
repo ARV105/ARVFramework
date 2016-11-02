@@ -18,23 +18,24 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+UIFramework for a custome design cell and tableview
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/ARVFramework'
+  s.homepage         = 'https://github.com/ARV105/ARVFramework'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.license          = 'MIT' }
   s.author           = { 'Auriel Vilaire' => 'auriel-robert_vilaire@uhaul.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/ARVFramework.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/ARV105/ARVFramework.git', :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/<ARV105>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
-  s.source_files = 'ARVFramework/Classes/**/*'
-  
+s.source_files = 'ARVFramework/Classes/**/*.{swift}'
+
   # s.resource_bundles = {
-  #   'ARVFramework' => ['ARVFramework/Assets/*.png']
-  # }
+    'ARVFramework' => ['Pod/Classes/**/*.{storyboard,xib,xcassets,json,imageset,png}']
+   }
+  # 'ARVFramework/Assets/*.png'
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

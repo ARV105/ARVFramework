@@ -1,0 +1,16 @@
+PODS:
+  - ARVFramework (0.1.0)
+
+DEPENDENCIES:
+  - ARVFramework (from `../`)
+
+EXTERNAL SOURCES:
+  ARVFramework:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ARVFramework: 2a8ef720b33eb7772dbd60335c0d47309cf758b9
+
+PODFILE CHECKSUM: 2e59a38a34566909a6cf52b5b714f5f40d3b49cf
+
+COCOAPODS: 1.0.1
