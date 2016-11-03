@@ -1,6 +1,6 @@
 use_frameworks!
 target 'ARVFramework_Tests' do
-  pod 'ARVFramework', :path => '../'
+  pod 'ARVFramework', :path => 'https://github.com/ARV105/ARVFramework.git', :tag => '0.1.0'
   
   
 end

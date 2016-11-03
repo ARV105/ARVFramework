@@ -6,7 +6,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Table View Controller-->
+        <!--PokeDex-->
         <scene sceneID="NTF-ox-Bdh">
             <objects>
                 <viewController id="o5h-X9-W5E" customClass="TableViewController" customModule="ARVFramework_Tests" customModuleProvider="target" sceneMemberID="viewController">
@@ -15,14 +15,14 @@
                         <viewControllerLayoutGuide type="bottom" id="d9y-cD-H2s"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="KE0-6e-v0u">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="SAy-43-EcF">
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="608" id="b2n-id-TkY"/>
-                                    <constraint firstAttribute="width" constant="375" id="w9u-bV-I08"/>
+                                    <constraint firstAttribute="height" constant="672" id="sg0-vA-ZfX"/>
+                                    <constraint firstAttribute="width" constant="414" id="xMW-jC-Jfl"/>
                                 </constraints>
                                 <connections>
                                     <outlet property="dataSource" destination="KE0-6e-v0u" id="2Iq-md-qkw"/>
@@ -32,20 +32,20 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="bottom" secondItem="SAy-43-EcF" secondAttribute="bottom" constant="-5" id="JrP-32-ndd"/>
-                            <constraint firstAttribute="trailing" secondItem="SAy-43-EcF" secondAttribute="trailing" id="c0Z-sd-lpa"/>
-                            <constraint firstItem="SAy-43-EcF" firstAttribute="leading" secondItem="KE0-6e-v0u" secondAttribute="leading" id="uiL-Qn-5fd"/>
-                            <constraint firstItem="SAy-43-EcF" firstAttribute="top" secondItem="cgI-ia-b9g" secondAttribute="bottom" id="wly-iA-RRP"/>
+                            <constraint firstAttribute="trailing" secondItem="SAy-43-EcF" secondAttribute="trailing" id="7JA-HZ-pXd"/>
+                            <constraint firstItem="SAy-43-EcF" firstAttribute="top" secondItem="cgI-ia-b9g" secondAttribute="bottom" id="V9Y-Vu-CQ3"/>
+                            <constraint firstItem="SAy-43-EcF" firstAttribute="leading" secondItem="KE0-6e-v0u" secondAttribute="leading" id="gn7-jK-xUB"/>
+                            <constraint firstItem="d9y-cD-H2s" firstAttribute="top" secondItem="SAy-43-EcF" secondAttribute="bottom" id="zuA-xy-ngg"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="6y2-S6-otL"/>
+                    <navigationItem key="navigationItem" title="PokeDex" id="6y2-S6-otL"/>
                     <connections>
                         <outlet property="tableView" destination="SAy-43-EcF" id="o3f-Wz-aq1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MRL-IG-iOZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1144.8" y="130.88455772113943"/>
+            <point key="canvasLocation" x="1143.4782608695652" y="130.43478260869566"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="xYn-l9-wqm">
@@ -55,6 +55,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="FdL-pI-ESf">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.96180635690000005" green="0.086858443739999999" blue="0.068046705159999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>

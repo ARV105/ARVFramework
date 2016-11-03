@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		944126AB1DCBC91300890FCD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 944126AA1DCBC91300890FCD /* Images.xcassets */; };
 		94B0BB6F1DCA4D88009FE22F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94B0BB6E1DCA4D88009FE22F /* Main.storyboard */; };
 		94B0BB711DCA5062009FE22F /* cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94B0BB701DCA5062009FE22F /* cell.xib */; };
 		94B0BB751DCA52AF009FE22F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B0BB731DCA52AF009FE22F /* AppDelegate.swift */; };
@@ -24,6 +25,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7CAC3BB74FD3FA079F2F4200 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		944126AA1DCBC91300890FCD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		94B0BB6E1DCA4D88009FE22F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		94B0BB701DCA5062009FE22F /* cell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cell.xib; sourceTree = "<group>"; };
 		94B0BB731DCA52AF009FE22F /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 				94B0BB731DCA52AF009FE22F /* AppDelegate.swift */,
 				94B0BB741DCA52AF009FE22F /* TableViewController.swift */,
 				94B0BB771DCA5D60009FE22F /* PokemonFramework.swift */,
+				944126AA1DCBC91300890FCD /* Images.xcassets */,
 			);
 			name = "Examples for UIFramework";
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 				TargetAttributes = {
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = SZ5PKTD2H9;
 						LastSwiftMigration = 0800;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -184,6 +188,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				944126AB1DCBC91300890FCD /* Images.xcassets in Resources */,
 				94B0BB6F1DCA4D88009FE22F /* Main.storyboard in Resources */,
 				94B0BB711DCA5062009FE22F /* cell.xib in Resources */,
 			);
@@ -346,6 +351,7 @@
 			baseConfigurationReference = 53F595F8C85CAB93FB2DFF75 /* Pods-ARVFramework_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = SZ5PKTD2H9;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -367,6 +373,7 @@
 			baseConfigurationReference = EB88728430DE91CC4E77FFB2 /* Pods-ARVFramework_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = SZ5PKTD2H9;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

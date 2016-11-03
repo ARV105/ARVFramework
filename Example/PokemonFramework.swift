@@ -13,10 +13,6 @@ import UIKit
 public class PokemonFramework {
     
     public static func performSegueToFrameworkVC(caller: UIViewController) {
-//        let podBundle = Bundle(for: TableViewController.self)
-//        
-//        let bundleURL = podBundle.url(forResource: "PokemonFramework", withExtension: "bundle")
-//var bundle = Bundle(url: bundleURL!)!
         var bundle:Bundle {
             let podBundle = Bundle(for: PokemonFramework.self)
             
